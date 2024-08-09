@@ -1,0 +1,82 @@
+* {
+    margin: 0;;
+    padding: 0;
+}
+h1 {
+    background-color: #005f73;
+    color: rgb(238, 174, 14);
+    line-height: 6rem;
+    height: 6rem;
+    font-size: 3rem;
+}
+body {
+    text-align: center;
+    background-color: #f6bd60;
+}
+.choice-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.choices {
+    height: 25vmin;
+    width: 25vmin;
+    border-radius:50%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+   
+}
+#scissors img {
+    margin-left: 5px;
+}
+#rock img {
+    margin-left: 5px;
+}
+img {
+    height: 25vmin;
+    width: 24vmin;
+    border-radius:50%;
+}
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 3rem;
+    margin-top: 1rem;
+}
+#user-score, #comp-score, #draw-score {
+    font-size: 4rem;
+}
+.msg-container {
+    margin-top: 4rem;
+
+}
+.message {
+    background-color: rgb(37, 73, 236);
+    color: white;
+    font-size: 40px;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.choices:hover {
+    background-color: #76b49f;
+    cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+    .message{
+        font-size: 20px;
+    }
+    h1 {
+        line-height: 5rem;
+        height: 5rem;
+        font-size: 2rem;
+    }
+
+}
+
